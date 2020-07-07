@@ -1,0 +1,99 @@
+.t1-global-wrapper {
+  margin: 100px 0;
+  user-select: none;
+  .t1-title-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 75px;
+    font-family: "Nexa-Bold";
+    color: #484848;
+  }
+  .t1-sell-all-wrapper > a {
+    text-decoration: none;
+    color: #484848;
+    div:after {
+      font-family: swiper-icons;
+      content: "next";
+      font-size: 10px;
+      font-weight: bold;
+      color: #484848;
+      padding: 0 3px;
+    }
+  }
+  .t1-swiper-wrapper {
+    margin: 0 75px;
+    position: relative;
+  }
+  .swiper-container {
+    position: static !important;
+  }
+  .swiper-button-prev {
+    left: -40px;
+  }
+  .swiper-button-next {
+    right: -40px;
+  }
+  .swiper-button-prev.swiper-button-disabled,
+  .swiper-button-next.swiper-button-disabled {
+    display: none;
+  }
+  .swiper-button-prev:after,
+  .swiper-button-next:after {
+    font-size: 28px;
+    font-weight: bold;
+    color: #828282;
+  }
+  img.t1-slider-element {
+    width: 100%;
+    height: 16vw;
+  }
+
+  .slick-arrow {
+    background-color: black;
+  }
+
+  .swiper-slide {
+    cursor: pointer;
+  }
+  .t1-slider-wrapper {
+    font-family: "Nexa-Bold";
+  }
+  .t1-tile-element {
+    font-family: "Nexa-Black";
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 10px 0;
+  }
+  .t1-name-element {
+    font-size: 20px;
+    color: #484848;
+    font-weight: bold;
+    margin: 0px 0px 8px;
+    font-family: "Nexa-Heavy";
+  }
+  .t1-price-block {
+    color: #484848;
+    margin: 0px 0px 3px;
+    font-size: 17px;
+    font-family: "Nexa-Regular";
+    span {
+      font-size: 15px;
+    }
+  }
+  .t1-rating-block > svg {
+    width: 12px;
+    height: 12px;
+    fill: #3f8489;
+  }
+  .t1-rr-block {
+    display: flex;
+    align-items: center;
+  }
+  .t1-review-element {
+    margin-left: 4px;
+    font-size: 14px;
+    color: #484848;
+  }
+}
